@@ -13,5 +13,6 @@ const app = firebase.initializeApp(firebaseConfig);
 
 //importo o firebase para poder utilizar nos componentes
 export const db = app.firestore();
+export const storage = app.storage();
 
 export default firebaseConfig;
